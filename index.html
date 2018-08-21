@@ -2,33 +2,40 @@
 <html>
 <head>
 	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-	<div id="front-page">
+	<div id="app">
 
-		<h1>EARTH CHRONICLE</h1>
+		<div id="front-page">
 
-		<div id="btn-container">
+			<h1>EARTH CHRONICLE</h1>
 
-			<div id="btn-row-top">
-				<button id="earth-btn">EARTH</button>
-				<button></button>
-			</div>
+			<div id="btn-container">
 
-			<div id="btn-row-bottom">
-				<button></button>
-				<button></button>
+				<div id="btn-row">
+					<button id="earth-btn">EARTH</button>
+					<button></button>
+				</div>
+
+				<div id="btn-row">
+					<button></button>
+					<button></button>
+				</div>
+
 			</div>
 
 		</div>
 
+		<earth-page></earth-page>
+
 	</div>
 
-	<earth-page></earth-page>
 
-	<script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
+	<script src="https://unpkg.com/vue@2.5.17/dist/vue.js"></script>
 	<script src="app.js"></script>
 </body>
 </html>
