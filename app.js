@@ -1,4 +1,8 @@
-Vue.component("earth-page", {
+Vue.component('water-page', {
+	template: `<div></div>`,
+});
+
+Vue.component('earth-page', {
 	template: `
 	<div>
 		<p>
@@ -43,6 +47,14 @@ Vue.component("earth-page", {
 			sets, calibrated with ground station measurements.
 		</p>
 	</div>`
+});
+
+Vue.component('air-page', {
+	template: `<div></div>`,
+});
+
+Vue.component('fire-page', {
+	template: `<div></div>`,
 });
 
 new Vue({
